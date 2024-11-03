@@ -1,1 +1,68 @@
 /* Soluzione qui */
+
+@media (min-width:768px){
+
+  #topbar{
+    justify-content: start;
+  }
+
+  .recipe-origin{
+    display: inline;
+  }
+
+  .recipe-title{
+    font-size: 21px;
+  }
+
+  .quick-notes ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes li{
+    flex-basis: calc(100% / 3);
+  }
+
+  .ads{
+    display: block;
+  }
+
+  .presentation p img{
+    float: left;
+    margin-right: 10px;
+  }
+
+  .social-networks .btn{
+    padding: 10px 50px;
+  }
+}
+
+@media (min-width:992px){
+  .recipe-title{
+    font-size: 29px;
+  }
+
+  .quick-notes ul{
+    display: block;
+
+  }
+
+  .recipe-video{
+    flex-basis: 70%;
+    max-height: 420px;
+  }
+
+  .recipe-card{
+    display: flex;
+  }
+
+  .social-networks .btn{
+    padding: 10px 30px;
+    display: flex ;
+  }
+
+  .social-networks .btn span{
+    display: block;
+    padding-left: 10px;
+  }
+}
